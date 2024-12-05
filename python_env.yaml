@@ -1,0 +1,15 @@
+
+name: london_temp_pipeline
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - mlflow
+  - pip
+  - pip:
+      - mlflow
